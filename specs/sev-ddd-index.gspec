@@ -6,6 +6,8 @@
 # @contact     @agomezmoron
 # @copyright   Copyright 2017
 
+@import components/sev-ddd-header.gspec
+
 @objects
   # menu items
   main-text xpath   //div[@id='block-headerblock']

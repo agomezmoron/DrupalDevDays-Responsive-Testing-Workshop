@@ -1,0 +1,44 @@
+# @summary     Sev DDD Responsive testing - Header components
+# @description gspec file for the header
+# @version     0.0.1
+# @file        sev-ddd-header.gspec
+# @author      Alejandro Gómez <agommor@gmail.com>
+# @contact     @agomezmoron
+# @copyright   Copyright 2017
+
+@objects
+  # menu items
+  menu-left-items    xpath   //ul[@block='block-headerleftmenu']/li
+  menu-right-items    xpath   //ul[@block='block-headerrightmenu']/li
+
+  # mobile menu
+  menu-mobile    xpath   //a[@id='menuButtonTrigger']
+
+  # logo
+  logo   xpath   //a[@class='branding__logo']
+
+
+= Menu section =
+    # for all the devices
+    @on desktop, tablet, phablet-landscape
+      menu-left-items:
+        visible
+      menu-right-items:
+        visible
+      menu-mobile:
+        absent
+
+    # custom exception case for mobile and phablet-portrait
+    @on mobile, phablet-portrait
+      menu-mobile:
+        visible
+      menu-right-items:
+        absent
+      menu-left-items:
+        absent
+
+= Logo =
+    # for all the devices
+    @on *
+      logo:
+        visible
