@@ -1,0 +1,17 @@
+# @summary     Sev DDD Responsive testing - Index page
+# @description gspec file for the index page
+# @version     0.1
+# @file        sev-ddd-index.gspec
+# @author      Alejandro Gómez <agommor@gmail.com>
+# @contact     @agomezmoron
+# @copyright   Copyright 2017
+
+@objects
+  # menu items
+  main-text xpath   //div[@id='block-headerblock']
+
+= Main text =
+    # for all the devices
+    @on *
+        main-text:
+            visible
