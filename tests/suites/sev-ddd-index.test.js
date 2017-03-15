@@ -31,8 +31,7 @@
  * @copyright   Copyright 2017
  */
 // important, commons should be loaded here
-require('galen-framework-handler');
-//load('../../node_modules/galen-framework-handler/dist/galen-framework-handler.js');
+load('../../node_modules/galen-framework-handler/dist/galen-framework-handler.js');
 
 load('../../config.js');
 
