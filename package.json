@@ -18,7 +18,7 @@
     "url": "https://github.com/agomezmoron/DrupalDevDays-Responsive-Testing-Workshop/issues"
   },
   "dependencies": {
-    "galen-framework-handler": "^0.0.3"
+    "galen-framework-handler": "^0.0.5"
   },
   "devDependencies": {
   },
