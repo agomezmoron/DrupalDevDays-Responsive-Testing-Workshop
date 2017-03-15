@@ -1,0 +1,38 @@
+{
+  "name": "DrupalDevDays Responsive Testing Workshop",
+  "description": "Drupal Developer Days 2017 - Workshop about Resonsive Testing",
+  "version": "0.0.1",
+  "author": {
+    "name": "Alejandro Gomez",
+    "email": "agommor@gmail.com",
+    "url": "http://github.com/agomezmoron"
+  },
+  "contributors": [
+    {
+      "name": "Óscar Castaño",
+      "email": "ocascal@gmail.com",
+      "url": "http://github.com/ocastano"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/agomezmoron/DrupalDevDays-Responsive-Testing-Workshop/issues"
+  },
+  "dependencies": {
+    "galen-framewok-handler": "^0.0.2"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=5.5.0"
+  },
+  "homepage": "https://github.com/agomezmoron/DrupalDevDays-Responsive-Testing-Workshop",
+  "keywords": [
+    "galen",
+    "galen framework",
+    "responsive",
+    "testing",
+    "DrupalDevDays"
+  ],
+  "license": "MIT",
+  "scripts": {}
+}
