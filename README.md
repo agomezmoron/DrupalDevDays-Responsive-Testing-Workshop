@@ -17,6 +17,8 @@ Drupal Dev Days 2017
 
 [**2. Installing Galen Framework.**](#2-installing-galen-framework)
 
+[**3. Config your Galen Project.**](#3-config-your-galen-project)
+
 
 ## 1. Installing required software.
  
@@ -60,7 +62,7 @@ or just [download](http://nodejs.org/#download) the installer
 
 Follow the instructions from the [nodejs.org](https://nodejs.org/es/download/package-manager/) web.
 
-##### 1.1.5. Test It
+##### 1.1.5. Test It.
 
 To see if Node is installed, type the above on your command line:
 
@@ -80,7 +82,7 @@ Go to project folder and install npm modules and dependencies:
 npm i 
 ```
 
-## 2. Installing Galen Framework
+## 2. Installing Galen Framework.
 
 Galen should be installed globally:
 
@@ -88,3 +90,25 @@ Galen should be installed globally:
 sudo npm install -g galenframework-cli
 ```
 
+## 3. Config your Galen Project.
+
+In order for galen to be able to communicate with browser we need to get a special driver for it.
+For Firefox you will need a [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.15.0).
+
+Download driver and extract it somewhere on your file system.
+
+Create default configuration from console
+
+```bash
+galen config
+```
+
+Edit file /home/currentuser/.galen.config
+
+Add this line
+
+```bash
+$.webdriver.gecko.driver=/path/to/your/geckodriver
+```
+
+** file config.js add to master
