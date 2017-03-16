@@ -13,7 +13,7 @@ Drupal Dev Days 2017
 
 [**1.1.4. Other OSs and further instructions.**](#114-other-oss-and-further-instructions)
 
-[**1.1.5. Test It!**](#115-test-it-!)
+[**1.1.5. Test It.**](#115-test-it)
 
 [**2. Installing Galen Framework.**](#2-installing-galen-framework)
 
@@ -60,7 +60,7 @@ or just [download](http://nodejs.org/#download) the installer
 
 Follow the instructions from the [nodejs.org](https://nodejs.org/es/download/package-manager/) web.
 
-##### 1.1.5. Test It!
+##### 1.1.5. Test It
 
 To see if Node is installed, type the above on your command line:
 
