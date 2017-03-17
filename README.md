@@ -47,3 +47,7 @@ Drupal Dev Days 2017
  Create file ```sev-ddd-index.test.js``` in project ```tests/suites/``` folder: 
   
  <img src="/images/Step1_Creating_Structure_5.png" height="256" />  
+ 
+  _______________________________________
+ 
+ _Congratulations, you are ready to do your first test using Galen_
