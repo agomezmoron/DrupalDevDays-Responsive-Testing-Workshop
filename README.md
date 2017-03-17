@@ -114,5 +114,5 @@ Download [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.15
 
 Extract it into project folder, in driver folder. Replace ```geckodriver``` file:
 
-<img src="/images/Step0_folder_geckodriver.png" height="128" />
+<img src="/images/Step0_folder_geckodriver.png" height="256" />
 
