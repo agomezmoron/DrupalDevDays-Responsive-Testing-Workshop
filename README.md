@@ -102,7 +102,7 @@ sudo npm install -g galenframework-cli
 ## 3. Config your Galen Project.
 
 In order for galen to be able to communicate with browser we need to get a special driver for it.
-For Firefox you will need a [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.15.0).
+For Firefox you will need a [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.14.0).
 
 ### 3.1. Using Linux and Firefox.
 
@@ -110,7 +110,7 @@ You do not have to do anything, the project is ok for you.
 
 ### 3.2. Using OSX or Windows and Firefox.
 
-Download [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.15.0) for your operating system version.   
+Download [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.14.0) for your operating system version.   
 
 Extract it into project folder, in driver folder. Replace ```geckodriver``` file:
 
