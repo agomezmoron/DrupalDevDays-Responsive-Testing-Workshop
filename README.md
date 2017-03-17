@@ -19,9 +19,9 @@ Drupal Dev Days 2017
 
 [**3. Config your Galen Project.**](#3-config-your-galen-project)
 
-[**3.1. Using Linux and Firefox.**](#31-using-linux-and-firefox)
+[**3.1. Using Linux && Firefox.**](#31-using-linux-&&-firefox)
 
-[**3.2. Using OSX/Windows and Firefox.**](##31-using-osx/windows-and-firefox)
+[**3.2. Using OSX/Windows and Firefox.**](##31-using-osx-||-windows-&&-firefox)
 
 
 ## 1. Installing required software.
@@ -104,11 +104,11 @@ sudo npm install -g galenframework-cli
 In order for galen to be able to communicate with browser we need to get a special driver for it.
 For Firefox you will need a [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.15.0).
 
-### 3.1. Using Linux and Firefox.
+### 3.1. Using Linux && Firefox.
 
 You do not have to do anything, the project is ok for you.
 
-### 3.2. Using OSX/Windows and Firefox.
+### 3.2. Using OSX || Windows && Firefox.
 
 Download [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.15.0) for your operating system version.   
 
