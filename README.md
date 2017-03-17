@@ -100,7 +100,7 @@ Drupal Dev Days 2017
  
   _______________________________________
  
- _Congratulations, you are ready to run your first test using Galen_
+ _Congratulations, you are ready to **run** your first test using Galen_
  
  ``` 
     galen test tests/suites/ --htmlreport reports/
