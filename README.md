@@ -21,7 +21,7 @@ Drupal Dev Days 2017
 
 [**3.1. Using Linux and Firefox.**](#31-using-linux-and-firefox)
 
-[**3.2. Using OSX or Windows and Firefox.**](##32-using-osx-or-windows-and-firefox)
+[**3.2. Using OSX or Windows and Firefox.**](#32-using-osx-or-windows-and-firefox)
 
 
 ## 1. Installing required software.
