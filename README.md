@@ -1,68 +1,53 @@
 # DrupalDevDays-Responsive-Testing-Workshop
 Drupal Dev Days 2017
 
-[**1. Installing required software.**](#1-installing-required-software)
+[**1. Config JS File.**](#1-config-js-file)
 
-[**1.1 Installing Nodejs.**](#11-installing-nodejs)
+[**2. Specs.**](#2-specs)
 
-[**1.2 Installing yarn (optional).**](#12-installing-yarn-optional)
+[**3. Tests.**](#3-tests)
 
-[**2. Installing Galen Framework .**](#2-installing-galen-framework)
-
-
-## 1. Installing required software
+ _______________________________________
  
-### 1.1 Installing Nodejs
-
-##### Using linux
-
-Install required packages if not installed.
-
-```bash
-sudo apt-get install python-software-properties
-```
-
-Execute the following curl to add the needed PPA
-
-```bash
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
-```
-
-Now install nodejs
-
-```bash
-sudo apt-get install -y nodejs
-```
-
-##### Using OSX
-
-Using Homebrew
-
-```bash
-brew install node
-```
-
-or just [download](http://nodejs.org/#download) the installer
-
-##### Using Windows
-
-[Download](http://nodejs.org/#download)  the installer.
-
-##### Other OSs and further instructions
-
-Follow the instructions from the [nodejs.org](https://nodejs.org/es/download/package-manager/) web.
-
-##### Using npm
-```
-npm i
-```
-
-## 2. Installing Galen Framework
-
-Galen should be installed globally:
-
-```bash
- npm install -g galenframework-cli
- ```
+ ## 1. Config JS File.
  
- It might require sudo.
+ Create file ```config.js``` in project root folder:
+ 
+ <img src="/images/Step1_Creating_Structure_0.png" height="256" />
+ 
+ 
+ ## 2. Specs.
+ 
+ Galen Specs Language is quite flexible and gives you the opportunity 
+ to express exactly how you want your website to behave on different devices.
+ 
+ Create folder ```specs``` in project root folder:
+ 
+ <img src="/images/Step1_Creating_Structure_1.png" height="256" />
+  
+ Create file ```sev-ddd-index.gspec``` in project ```specs/``` folder: 
+ 
+ <img src="/images/Step1_Creating_Structure_2.png" height="256" />
+  
+ 
+ ## 3. Tests.
+ 
+ To give users more flexibility and ease of maintenance, 
+ Galen created another simple format for defining test suites. 
+ Let's define the required folder and file structure.
+ 
+ Create folder ```tests``` in project root folder:
+  
+ <img src="/images/Step1_Creating_Structure_3.png" height="256" />
+  
+ Create folder ```suites``` in project ```tests/``` folder:
+   
+ <img src="/images/Step1_Creating_Structure_4.png" height="256" />
+ 
+ Create file ```sev-ddd-index.test.js``` in project ```tests/suites/``` folder: 
+  
+ <img src="/images/Step1_Creating_Structure_5.png" height="256" />  
+ 
+  _______________________________________
+ 
+ _Congratulations, you are ready to do your first test using Galen_
