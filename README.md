@@ -15,6 +15,21 @@ Drupal Dev Days 2017
  
  <img src="/images/Step1_Creating_Structure_0.png" height="256" />
  
+ Edit file ```config.js``` and add this code:
+ 
+ ```
+    /** Overriding the config variable defined in the galen-framework-handler **/
+    config = {
+        baseURL: "https://seville2017.drupaldays.org"
+    };
+    
+    /** Overriding the devices to test variable defined in the galen-framework-handler **/
+    devicesToTest = {
+        iphone6: devices.iphone6,
+        desktop: devices.desktop1024
+    };
+ ```
+ 
  
  ## 2. Specs.
  
@@ -28,6 +43,20 @@ Drupal Dev Days 2017
  Create file ```sev-ddd-index.gspec``` in project ```specs/``` folder: 
  
  <img src="/images/Step1_Creating_Structure_2.png" height="256" />
+ 
+ Edit file ```sev-ddd-index.gspec``` and add this code:
+  
+  ```
+     @objects
+       # menu items
+       main-text xpath   //div[@id='block-headerblock']
+     
+     = Main text =
+         # for all the devices
+         @on *
+             main-text:
+                 visible
+  ```
   
  
  ## 3. Tests.
@@ -48,6 +77,31 @@ Drupal Dev Days 2017
   
  <img src="/images/Step1_Creating_Structure_5.png" height="256" />  
  
+ Edit file ```sev-ddd-index.test.js``` and add this code:
+   
+   ```
+      // important, commons should be loaded here
+      load('../../node_modules/galen-framework-handler/dist/galen-framework-handler.js');
+      
+      load('../../config.js');
+      
+      forAll(devicesToTest, function (device) {
+          test("Testing on ${deviceName}", function (device) {
+              // here goes a test code
+              var driver = createDriver(config.baseURL,
+                  device.size);
+              // here is the "key" of the galen-framework testing
+              checkLayout(driver, "specs/sev-ddd-index.gspec", device.tags);
+              driver.close();
+              driver.quit();
+          });
+      });
+   ```
+ 
   _______________________________________
  
- _Congratulations, you are ready to do your first test using Galen_
+ _Congratulations, you are ready to run your first test using Galen_
+ 
+ ``` 
+    galen test tests/suites/ --htmlreport reports/
+ ```
