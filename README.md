@@ -42,14 +42,14 @@ Drupal Dev Days 2017
      menu-mobile:
        absent
      
- # custom exception case for mobile and phablet-portrait
- @on mobile, phablet-portrait
-   menu-mobile:
-     visible
-   menu-right-items:
-     absent
-   menu-left-items:
-     absent
+   # custom exception case for mobile and phablet-portrait
+   @on mobile, phablet-portrait
+     menu-mobile:
+       visible
+     menu-right-items:
+       absent
+     menu-left-items:
+       absent
      
      
  = Logo =
