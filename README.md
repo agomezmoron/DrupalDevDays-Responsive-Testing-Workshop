@@ -1,5 +1,8 @@
 # DrupalDevDays-Responsive-Testing-Workshop
+
 Drupal Dev Days 2017
+
+<img src="https://seville2017.drupaldays.org/themes/da_vinci/logo.svg" alt="DDD-2017-logo" />
 
 [**1. Config JS File.**](#1-config-js-file)
 
