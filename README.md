@@ -106,5 +106,5 @@ _______________________________________
  _Congratulations, you are ready to **run** your first test using Galen_
  
  ```bash 
- galen test tests/suites/ --htmlreport reports/
+ galen test tests/suites/* --htmlreport reports/
  ```
