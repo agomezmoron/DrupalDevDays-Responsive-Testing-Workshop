@@ -26,6 +26,8 @@ Drupal Dev Days 2017
 
 [**3.2. Using OSX or Windows and Firefox.**](#32-using-osx-or-windows-and-firefox)
 
+[**4. How to continue.**](#4-how-to-continue)
+
 _______________________________________
 
 ## 1. Installing required software.
@@ -119,4 +121,11 @@ Download [geckodriver](https://github.com/mozilla/geckodriver/releases/tag/v0.14
 Extract it into project folder, in driver folder. Replace ```geckodriver``` file:
 
 <img src="/images/Step0_folder_geckodriver.png" height="256" />
+
+## 4. How to continue.
+
+You can continue the workshop in the next branches:
+
+* [Step 1](https://github.com/agomezmoron/DrupalDevDays-Responsive-Testing-Workshop/tree/Step1-Create_The_Test_Structure)
+* [Step 2](https://github.com/agomezmoron/DrupalDevDays-Responsive-Testing-Workshop/tree/Step2-Creating_Components)
 
