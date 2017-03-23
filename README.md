@@ -8,7 +8,9 @@ Drupal Dev Days 2017
 
 [**2. Specs.**](#2-specs)
 
-[**3. Tests.**](#3-tests)
+[**3. Installing Dependencies.**](#3-installing-dependencies)
+
+[**4. Tests.**](#4-tests)
 _______________________________________
  
  ## 1. Config JS File.
@@ -58,9 +60,15 @@ _______________________________________
          main-text:
              visible
   ```
-  
+ ## 3. Installing dependencies.
  
- ## 3. Tests.
+ You will have to install the npm dependencies:
+ 
+ ```
+ npm install
+ ```
+ 
+ ## 4. Tests.
  
  To give users more flexibility and ease of maintenance, 
  Galen created another simple format for defining test suites. 
