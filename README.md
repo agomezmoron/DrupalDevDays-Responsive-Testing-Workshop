@@ -94,7 +94,7 @@ npm -v
 Go to project folder and install npm modules and dependencies:
 
 ```bash
-npm -i 
+npm i 
 ```
 
 ## 2. Installing Galen Framework.
